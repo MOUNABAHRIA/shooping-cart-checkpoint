@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"><link>
+    <link rel="stylesheet" href="shopping-cart.css"><link>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+
+    </header>
+    
+    <section class="container ">
+        <div class="container-items"> 
+            
+            <div class="item">
+                <span class="title-item">Smartwatch</span>
+                <img src="images/montre-connectee-femme-intelligente-smartwatch-gps.webp" alt="" class="img-item">
+                <span class="item-price">39,99€</span>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <div class="item">
+                <span class="title-item">Swatch</span>
+                <img src="images/swatch-ygs473g.jpg " class="img-item">
+                <span class="item-price">200€</span>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <div class="item">
+                <span class="title-item">Samsung Galaxy</span>
+                <img src="images/garmin-forerunner-255-frandroid-2022.png" alt="" class="img-item">
+                <span class="item-price">439,99€</span>
+                <i class="fa fa-heart"  aria-hidden="true"></i>
+            </div>
+
+            <div class="item">
+                <span class="title-item">Withings</span>
+                <img src="images/Montre-Connectee-Withings-Move-ECG-Noir-et-Jaune.jpg" alt="" class="img-item">
+                <span class="item-price">308,60€</span>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <div class="item">
+                <span class="title-item">Rolex</span>
+                <img src="images/4690657-7006098.jpg" alt="" class="img-item">
+                <span class="item-price">30.000,00€</span>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+            <div class="item">
+                <span class="title-item">Rolex</span>
+                <img src="images/m226658-0001.webp" alt="" class="img-item">
+                <span class="item-price">25.000,00€</span>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+        </div>
+    
+     
+        <div class="cart">
+            <div class="header-cart">
+                <h2>Your Cart</h2>
+            </div>
+         <div class="cart-items">
+                <div class="cart-item">
+                    <img src="images/montre-connectee-femme-intelligente-smartwatch-gps.webp" alt="" width="80px">
+                    <div class="cart-item-details">
+                        <span class="cart-item-title">Smartwatch</span> 
+                        <div class="quantity-selector">
+                           <i class="fa fa-minus subtract-amount" aria-hidden="true"></i>
+                           <input type="text" class="cart-item-quantity" value="1" disabled>
+                           <i class="fa fa-plus sum-amount" aria-hidden="true"></i>
+                        </div>
+                       <span class="cart-item-price">39,99 €</span> 
+                    </div>
+                    <span class="btn-eliminate"><i class="fa fa-times" aria-hidden="true"></i></span>
+                </div>
+                <div class="cart-item">
+                    <img src="images/swatch-ygs473g.jpg" alt="" width="80px">
+                    <div class="cart-item-details">
+                        <span class="cart-item-title">Swatch</span> 
+                        <div class="quantity-selector">
+                           <i class="fa fa-minus subtract-amount" aria-hidden="true"></i>
+                           <input type="text" class="cart-item-quantity" value="1" disabled>
+                           <i class="fa fa-plus sum-amount" aria-hidden="true"></i>
+                        </div>
+                       <span class="cart-item-price">200€</span> 
+                    </div>
+                    <span class="btn-eliminate"><i class="fa fa-times" aria-hidden="true"></i></span>
+                </div>
+                <div class="cart-item">
+                    <img src="images/41WkHdvC3WL._AC_.jpg" alt="" width="80px">
+                    <div class="cart-item-details">
+                        <span class="cart-item-title">Garmin </span> 
+                        <div class="quantity-selector">
+                           <i class="fa fa-minus subtract-amount" aria-hidden="true"></i>
+                           <input type="text" class="cart-item-quantity" value="1" disabled>
+                           <i class="fa fa-plus sum-amount" aria-hidden="true"></i>
+                        </div>
+                       <span class="cart-item-price">169€</span> 
+                    </div>
+                    <span class="btn-eliminate"><i class="fa fa-times" aria-hidden="true"></i></span>
+                </div>
+
+                <div class="cart-total">
+                   <div class="row">
+                        <strong> Total</strong>
+                        <span class="cart-price-total">12.000,000</span>
+                    </div>
+                        <button class="btn-payer">buy</button>
+                 </div>
+            
+        </div>
+    </section>
+
+    <script src="shopping-cart.js"></script> 
+</body>
+</html>
